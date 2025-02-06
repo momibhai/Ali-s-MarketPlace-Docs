@@ -1,0 +1,27 @@
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,Test Case ID,Test Case Description,Test Steps,Expected Result,Actual Result,Status,Severity Level,Assigned To,Remarks
+,TCID01,Verify Search Functionality,1. Navigate to the search bar.,The correct product should appear in the search results.,Correct product is displayed in search results.,Passed,Medium,-,Great
+,,,2. Enter a valid product name.,,,,,,
+,,,3. Press the search button.,,,,,,
+,,,,,,,,,
+,TCID02,API: Validate Product Fetch,1. Send a GET request to the API endpoint for fetching product details.,The API should return a 200 OK status with the correct product data.,API returned 200 OK with correct product data.,Passed,High,- ,Nice
+,,,2. Include valid product ID in the request.,,,,,,
+,,,3. Check the response status code.,,,,,,
+,,,,,,,,,
+,TCID03,Test Responsive Design (Mobile & Tablet),1. Open the website on a mobile device.,"Layout should be responsive, UI should be optimized for mobile/tablet.",Layout is broken and not optimized.,Failed,Low,- ,not so well
+,,,2. Open the website on a tablet.,,,,,,
+,,,3. Check layout and usability.,,,,,,
+,,,,,,,,,
+,TCID04,Test Authentication (Email/Google),1. Navigate to the login page.,User should be able to sign up/login successfully with email or Google.,Signup/login successful with both email and Google.,Passed,High,,Good
+,,,2. Try signing up with email or Google.,,,,,,
+,,,3. Try logging in with email or Google.,,,,,,
+,,,,,,,,,
+,TCID05,Test Category & Product Details Page,1. Navigate to a category page.,"Product details page should load with correct dynamic data (price, description, image).",Product details page loaded with correct dynamic data.,Passed,High,-,Average
+,,,2. Select a product.,,,,,,
+,,,3. Check if product details are dynamically loaded.,,,,,,
